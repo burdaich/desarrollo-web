@@ -33,12 +33,14 @@ h1 {
     letter-spacing: -.2px;
     text-transform: uppercase;
     color: white;
+    margin: 100px 150px 70px 30px;
 
 }
 
 .project {
     border: 1px solid grey;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
