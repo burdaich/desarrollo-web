@@ -11,29 +11,32 @@
 <body>
 <div>
     <header class="header">
-        <figure>
-            <img src="images/icon.jpg">
-        </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a href="portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#">Experciencia</a>
-                </li>
-                <li>
-                    <a href="#">Trabajemos juntos</a>
-                </li>
-            </ol>
-        </nav>
+        <div class="container">
+            <figure class="logo">
+                <img src="images/icon.jpg" height="50px">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Experciencia</a>
+                    </li>
+                    <li>
+                        <a href="#">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
     </header>
 </div>
 <section class="hero">
     <h1>
         ¡Hola! Soy <strong>Edorta Rodríguez </br></strong> , Desarrollador <strong>Fullstack</strong>.
     </h1>
-<!--    <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">-->
+    <!--    <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal">-->
 </section>
 <section id="#portafolio" class="portfolio">
     <h2>Portafolio (proyectos destacados)</h2>
@@ -41,8 +44,12 @@
         <div class="project-details">
             <h3 class="project-title">Ariadna Web</h3>
             <h6 class="project-course">Vaadin / Java </h6>
-            <p class="project-date"><small><strong>Fecha : Noviembre 2018</strong></small></p>
-            <p class="project-url"><small><strong>www.ariadnagrid.com</strong></small></p>
+            <p class="project-date">
+                <small><strong>Fecha : Noviembre 2018</strong></small>
+            </p>
+            <p class="project-url">
+                <small><strong>www.ariadnagrid.com</strong></small>
+            </p>
         </div>
         <figure class="project-imageContainer">
             <img class="project-image" src="images/ariadnagrid.jpg">

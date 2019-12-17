@@ -32,6 +32,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     text-transform: uppercase;
+    color: white;
 
 }
 
@@ -43,6 +44,27 @@ h1 {
     width: 500px;
 }
 
+h1 strong{
+    color: #ed0b0c;
+}
+
 .hero {
     height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
 }
+
+.header {
+    height: 300px;
+    background-color: #000000;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
