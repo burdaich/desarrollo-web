@@ -15,7 +15,7 @@ valores
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin:0;
+    margin: 0;
 }
 
 h1,
@@ -82,3 +82,15 @@ h1 strong {
     text-decoration: none;
 }
 
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
