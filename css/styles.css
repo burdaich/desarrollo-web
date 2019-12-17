@@ -15,6 +15,7 @@ valores
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
 }
 
 h1,
@@ -37,10 +38,16 @@ h1 {
 
 }
 
+.portfolio {
+    background: #fafafa;
+}
+
 .project {
     border: 1px solid grey;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin: 10px 10px 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {
