@@ -73,13 +73,53 @@ h1 strong {
 }
 
 .header {
-    height: 300px;
+    height: 90px;
     background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
 }
 
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header .logo {
+    margin: unset;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: block;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu {
+    height: inherit;
 }
 
 .flexbox {
@@ -90,7 +130,6 @@ h1 strong {
 .box {
     width: 50px;
     height: 50px;
-    margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
 }
