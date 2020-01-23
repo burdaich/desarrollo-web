@@ -303,18 +303,38 @@ footer a {
 
 .container {
     max-width: 1280px;
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
-    flex-wrap: inherit;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        /*border:10px solid green;*/
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
     }
+
+    .header ol {
+        display: block;
+    }
+
+    .header ol li {
+        height: 50px;
+    }
+
+    .header a {
+        justify-content: center
+    }
+
+    .header .logo {
+        justify-content: center;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
