@@ -34,8 +34,7 @@ h1 {
     letter-spacing: -.2px;
     text-transform: uppercase;
     color: white;
-    margin: 100px 150px 70px 30px;
-
+    margin: 100px 10px 70px 9px;
 }
 
 .portfolio {
@@ -312,10 +311,33 @@ footer a {
 }
 
 
-@media screen and (max-width: 1024px){
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         padding: 0 1em;
     }
+
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -387,8 +409,28 @@ footer a {
         flex-shrink: initial;
     }
 
-    .event img{
+    .event img {
         width: 100%;
+    }
+
+    .hero {
+        height: auto;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
     }
 
 
@@ -404,35 +446,44 @@ footer a {
         font-size: 12px;
     }
 
-    .event-detail{
+    .event-detail {
         margin: -2em .5em .5em;
         padding: 1em;
     }
 
-    .contact{
+    .contact {
         height: auto;
         padding: 1.5em 0;
         display: block;
         text-align: center;
     }
 
-    .form-email button{
+    .form-email button {
         margin: 1em auto;
     }
 
-    .form-email h3{
+    .form-email h3 {
         margin-top: 0;
     }
 
-    footer{
+    footer {
         display: block;
         text-align: center;
         padding: 1px;
+    }
+
+    h1 {
+        font-size: 1.5em;
     }
 }
 
 @media screen and (max-width: 320px) {
     body {
         /*border:10px solid yellow;*/
+    }
+
+    h1 {
+        font-size: 1.2em;
+        background: rgba(0, 0, 0, .5);
     }
 }
