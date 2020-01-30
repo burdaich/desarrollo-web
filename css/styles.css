@@ -13,6 +13,38 @@ valores
 /*selector descendente **/
 /*body header div nav ol li a/*/
 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?kxyh7u');
+    src:  url('../fonts/icomoon.eot?kxyh7u#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kxyh7u') format('truetype'),
+    url('../fonts/icomoon.woff?kxyh7u') format('woff'),
+    url('../fonts/icomoon.svg?kxyh7u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e900";
+}
+
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
