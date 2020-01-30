@@ -15,8 +15,8 @@ valores
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?kxyh7u');
-    src:  url('../fonts/icomoon.eot?kxyh7u#iefix') format('embedded-opentype'),
+    src: url('../fonts/icomoon.eot?kxyh7u');
+    src: url('../fonts/icomoon.eot?kxyh7u#iefix') format('embedded-opentype'),
     url('../fonts/icomoon.ttf?kxyh7u') format('truetype'),
     url('../fonts/icomoon.woff?kxyh7u') format('woff'),
     url('../fonts/icomoon.svg?kxyh7u#icomoon') format('svg');
@@ -343,12 +343,12 @@ footer a {
 }
 
 
-.html-video{
+.html-video {
     width: 100%;
     height: auto;;
 }
 
-.youtube-video{
+.youtube-video {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -358,11 +358,28 @@ footer a {
     left: 0;
 }
 
-.flexible-video{
+.flexible-video {
     width: 100%;
     height: 0;
     padding-top: 56.25%;
     position: relative;
+}
+
+.burger-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    left: 5px;
+    top: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -395,6 +412,11 @@ footer a {
 }
 
 @media screen and (max-width: 767px) {
+
+    .burger-button {
+        display: block;
+    }
+
     .header {
         display: block;
         height: auto;
